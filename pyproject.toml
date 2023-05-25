@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-fizzbuzz"
+requires-python = ">=3.8"
+version = "1.0.0"
+
+
+[project.scripts]
+py-fizzbuzz = "fizzbuzz.__main__:main"
+
+
+[project.urls]
+"Homepage" = "https://github.com/sizmailov/py-fizzbuzz"
